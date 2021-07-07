@@ -1,0 +1,19 @@
+/* ....DEFAULT ELEMENT STYLING---- */
+html {
+    /* Positining */
+    position: relative;
+}
+
+.body {
+    display: block;
+    overflow: scroll;
+    max-height: 100vh;
+    background-color: #0b1c2f;
+    font-family: Inter, sans-serif;
+  }
+
+/* Navbar */
+.navbar{
+    max-height: 60px;
+    background-color: #0b1c2f; /* color #c8cac9 */
+}
