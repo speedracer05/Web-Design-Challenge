@@ -13,27 +13,26 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <!-- Set style with style.css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <li class ="active"><a class="navbar-brand" href="../index.html"><i class="fas fa-globe-americas"></i> Latitude Dashboard</a><span class="sr-only">(current)</span></li>
+        <a class="navbar-brand" href="../index.html">Latitude Dashboard</a>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown active" >
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Plots <span class="caret sr-only">(current)</span></a>
+          <li class="dropdown" >
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="../visualizations/" target="_blank">Temperature</a></li>
                 <li><a href="../visualizations/humidity.html" target="_blank">Humidity</a></li>
@@ -51,11 +50,35 @@
 
 
   <!-- Start of Content -->
-  <div class="container">
-      <div class="row">
-          <div> class="<col-md-7>
-        </div>
+  <div class= "outer_item2">
+    <div class="grid">
+    
+    
+      <div class= "cont1">
+          <header>
+              <h1>Summary: Weather and Latitude</h1>
+          </header>
+          <hr>
+          <main class="box">
+              <section id="figure">
+                  <a href="">
+                      <img class = "item0" id="bio-image" src="assets/Images/temperature.png" alt="Your Name">
+                  </a>
+                  <p>The Purpose of this project was to visualize the weather of 800+ cities across the world, of varying distances from the equator, and how the cities weather changes as you get closer to the equator. To build this analysis I used a Python library and OpenWeatherMap API to randomly generate 1,500 geo-coordinates and find nearby cities. City names then were transformed into geo-coordinates, with current, local weather conditions. Next, I utilized Google's Maps JavaScript API, and previously collected cities data to create and overlay a heatmap onto Google Maps. Summer-like weather criteria were then used to programmatically filter, and select a dozen cities for my next adventure. </p>
+                  
+              </section>
+          </main>
       </div>
+    
+  <!-- <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-7">
+              <div class=box>
+                
+              </div>
+          </div>
+        </div>
+      </div> -->
 
 
   <!-- Visualizations -->
