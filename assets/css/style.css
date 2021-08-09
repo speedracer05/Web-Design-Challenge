@@ -1,0 +1,41 @@
+/*-- Default Element Styling --*/
+body {
+  min-height: 100%;
+  background-image: url(/assets/Images/pexels-miguel.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#cecece;
+  
+  font-family: 'Montserrat', sans-serif;
+
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(assets/Images/pexels-miguel-sm.jpg);
+  }
+	}
+
+/* div {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+} */
+
+
+/*-- Default Element Styling End --*/
+
+
+/* Navigation Bar Start*/
+/* .navbar{
+  max-height: 60px;
+  background-color: #c8cac9; /* color #c8cac9 */
+} */
