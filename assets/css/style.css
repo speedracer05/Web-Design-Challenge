@@ -23,16 +23,70 @@ body {
     background-image: url(assets/Images/pexels-miguel-sm.jpg);
   }
 	}
-
-/* div {
-    height: 100%;
-    width: 100%;
-    padding: 10px;
-} */
-
-
 /*-- Default Element Styling End --*/
 
+
+/* div class external_grid */
+.external_grd{
+  display: grid;
+}
+
+/* div class external_item1 for Navbar row */
+.external_itm1{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+/* div class external_item2 for content*/
+.external_item2{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* div class grid for content */
+.grid {
+  display: grid;
+  padding: 60px 75px;
+  column-gap: 10px
+  color: rgb(0, 0, 0)
+}
+
+/* div class content1 for Landing page content*/
+.content1 {
+  background-color: #ffffff;
+  grid-row-start: 1;
+  grid-column-end: 5;
+  padding: 60px 15px;
+}
+
+.content1 p {
+  color: rgb(0, 0, 0);
+}
+
+.content1 #figure {
+  float: left;
+}
+/* div class item0 for Temp vs Lat img */
+.item0 {
+  float: center;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+/* div class content2 for Visualization page content*/
+.content2 {
+  background-color: #ffffff;
+  grid-row-start: 5;
+  grid-column-end: 6;
+  padding: 60px 65px;
+}
+.content2 #figure {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
 
 /* Navigation Bar Start*/
 /* .navbar{
