@@ -9,13 +9,11 @@
 
     <!-- Link to Google Font link for text font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-
+    <link rel="icon" href="https://img.icons8.com/material-outlined/2x/globe--v3.png">
     <!--  Bootstrap  JS Dropdown Menu-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -47,14 +45,14 @@
                <li class="dropdown">
                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
                  <ul class="dropdown-menu">
-                   <li><a href="/visualizations/temperature.html">Max Temperature</a></li>
-                 <li><a href="/visualizations/humidity.html">Humidity</a></li>
-                 <li><a href="/visualizations/cloudiness.html">Cloudiness</a></li>
-                 <li><a href="/visualizations/windspeed.html">Wind Speed</a></li>
+                  <li><a href="/visualizations/temperature.html">Max Temperature</a></li>
+                  <li><a href="/visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="/visualizations/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="/visualizations/windspeed.html">Wind Speed</a></li>
                  </ul>
                
-               <li><a href="comparison.html">Comparison</a></li>
-             <li><a href="table.html">Data</a></li>
+              <li><a href="comparison.html">Comparison</a></li>
+              <li><a href="table.html">Data</a></li>
              </ul>
            </ul>
              
@@ -81,7 +79,7 @@
       <main class="box">
           <section id="figure">
               <a href="">
-                  <img class= "item0" id="plot-image" src="assets/Images/temperature.png" alt="Temperature plot">
+                  <img class= "item0" id="plot-image" src="/assets/Images/temperature.png" alt="Temperature plot">
               </a>
               <p>The Purpose of this project was to visualize the weather of 800+ cities across the world, of varying distances from the equator, and how the cities weather changes as you get closer to the equator. To build this analysis I used a Python library and OpenWeatherMap API to randomly generate 1,500 geo-coordinates and find nearby cities. City names then were transformed into geo-coordinates, with current, local weather conditions. Next, I utilized Google's Maps JavaScript API, and previously collected cities data to create and overlay a heatmap onto Google Maps. Summer-like weather criteria were then used to programmatically filter, and select a dozen cities for my next adventure. </p>
               
