@@ -25,7 +25,13 @@ body {
 	}
 /*-- Default Element Styling End --*/
 
-
+/* Pinned down Menu */
+.navbar {
+  position: fixed;
+  right: 75px;
+  left: 75px;
+  top: 0%;
+}
 /* div class external_grid */
 .external_grid {
   display: grid;
