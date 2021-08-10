@@ -5,14 +5,13 @@ body {
   background-image: url(/assets/Images/pexels-miguel.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
   background-color:#cecece;
-  
   font-family: 'Montserrat', sans-serif;
 
-  /* SHORTHAND CSS NOTATION
-   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+  /* SHORTHAND CSS NOTATION --- not working.
+   * background: url(/assets/Images/pexels-miguel.jpg) center center cover no-repeat fixed;
    */
 }
 
@@ -166,7 +165,7 @@ width: 100%;
   gap: 20px;
 }
   
-.container1 {
+.content1 {
   background-color: #ffffff;
   grid-row-start: 1;
   grid-row-end: 2;
@@ -184,7 +183,7 @@ width: 100%;
   float: left;
   margin: 10px;
 }
-.container2 {
+.content2 {
   background-color: #ffffff;
   grid-row-start: 2.5;
   grid-row-end: 4;
@@ -192,7 +191,7 @@ width: 100%;
   grid-column-end: 2;
   padding: 10px 15px;
 }
-.container2 #figure {
+.content2 #figure {
   display: grid;
   justify-content: center;
   gap: 20px;
@@ -234,7 +233,7 @@ width: 100%;
   padding: 5px;
   border-color: #ffffff;
 }
-.container2 img {
+.content2 img {
   margin: 10px;
   width: 100%;
   padding: 5px;
