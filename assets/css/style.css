@@ -15,14 +15,6 @@ body {
    */
 }
 
-/* For mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    /* The background image size is 93% smaller in size
-     * to improve page load speed on mobile internet connections */
-    background-image: url(assets/Images/pexels-miguel-sm.jpg);
-  }
-	}
 /*-- Default Element Styling End --*/
 
 /* Pinned down Menu */
@@ -139,7 +131,7 @@ width: 100%;
   padding: 5px;
 }
 .hov1:hover {
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(97, 97, 97);
 }
 .hov2:hover {
   border-color: rgb(0, 0, 0);
@@ -150,6 +142,16 @@ width: 100%;
 .hov4:hover {
   border-color:rgb(0, 0, 0);
 }
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+
+  body {
+    /* The background image size is 93% smaller in size
+     * to improve page load speed on mobile internet connections */
+    background-image: url(assets/Images/pexels-miguel-sm.jpg);
+  }
 
 .external_grid{
   display: grid;
@@ -179,10 +181,10 @@ width: 100%;
   grid-column-start: 1;
   grid-column-end: 2;
 }
-.container1 p {
+.content1 p {
   color: rgb(0, 0, 0)
 }
-.container1 #figure {
+.content1 #figure {
   float: left;
 }
 .item0 {
@@ -202,7 +204,7 @@ width: 100%;
   justify-content: center;
   gap: 20px;
 }
-/* ------  BEGIN OF SCRIPT ------  */
+
 .hov1 {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -244,17 +246,4 @@ width: 100%;
   width: 100%;
   padding: 5px;
 }
-.hov1:hover {
-  border-color: rgb(97, 97, 97);
 }
-.hov2:hover {
-  border-color: rgb(97, 97, 97);
-}
-.hov3:hover {
-  border-color: rgb(97, 97, 97);
-}
-.hov4:hover {
-  border-color: rgb(97, 97, 97);
-}
-
-
