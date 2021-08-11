@@ -9,20 +9,16 @@ body {
   /* background-size: cover; */
   background-color:#cecece;
   font-family: 'Montserrat', sans-serif;
-
-  /* SHORTHAND CSS NOTATION --- not working.
-   * background: url(/assets/Images/pexels-miguel.jpg) center center cover no-repeat fixed;
-   */
 }
 
 /*-- Default Element Styling End --*/
 
 /* Pinned down Menu */
 .navbar {
-  position: fixed;
+  position: sticky;
   right: 75px;
   left: 75px;
-  top: 0%;
+  top: 0;
 }
 /* div class external_grid */
 .external_grid {
@@ -56,7 +52,6 @@ body {
   grid-column-end: 5;
   padding: 60px 15px;
 }
-
 .content1 p {
   color: rgb(0, 0, 0);
 }
