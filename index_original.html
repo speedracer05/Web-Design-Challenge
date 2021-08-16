@@ -18,7 +18,7 @@
 
   </head>
 
-<body class="wholepage">
+  <body>
   <!-- Navigation bar -->
   <div class="external_grid">
 
@@ -36,7 +36,7 @@
             </div>
               <ul class="nav navbar-nav navbar-right">
                 <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav">
+                  <ul class="nav navbar-nav">                    
                     <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
                       <ul class="dropdown-menu">
@@ -50,7 +50,7 @@
                     <li><a href="table.html">Data</a></li>
                   </ul>
                 </div>
-              </ul>
+              </ul>             
           </div>
         </nav>
       </div>
@@ -58,46 +58,54 @@
   </div>
   <!-- Navigation end -->
 
-  <!-- Start of Content -->
-  <div class= "external_item2">
-    <div class= "content1">
-      <header>
-        <h1>Summary: Weather and Latitude</h1>
-      </header>
-      <hr>
-      <main class="box">
-        <section id="figure">
-          <a href="">
-            <img class= "item0" id="plot-image" src="/assets/Images/temperature.png" alt="Temperature vs Latitude graph">
-          </a>
-          <p>The Purpose of this project was to visualize the weather of 800+ cities across the world, of varying distances from the equator, and how the cities weather changes as you get closer to the equator. To build this analysis I used a Python library and OpenWeatherMap API to randomly generate 1,500 geo-coordinates and find nearby cities. City names then were transformed into geo-coordinates, with current, local weather conditions. Next, I utilized Google's Maps JavaScript API, and previously collected cities data to create and overlay a heatmap onto Google Maps. Summer-like weather criteria were then used to programmatically filter, and select a dozen cities for my next adventure. </p>
-        </section>
-      </main>
-    </div>
 
-    <div class= "content2">
+<!-- Start of Content -->
+<div class= "external_item2">
+<div class="grid">
+
+  <div class= "content1">
       <header>
-        <h2>Visualizations</h2>
+          <h1>Summary: Weather and Latitude</h1>
       </header>
       <hr>
       <main class="box">
-        <section id="figure"> 
-          <a href="/visualizations/max_temp.html">      
-            <img class = "hov1" id="plot-image" src="/assets/Images/temperature.png" alt="Temperature vs Latitude graph">
-          </a>
-          <a href="/visualizations/humidity.html">
-            <img class = "hov2" id="plot-image" src="/assets/Images/humidity.png" alt="Humidity  vs Latitude graph">
-          </a>
-          <a href="/visualizations/cloudiness.html">
-            <img class = "hov3" id="plot-image" src="/assets/Images/cloudiness.png" alt="Cloudiness  vs Latitude graph">
-          </a>
-          <a href="/visualizations/windspeed.html">
-            <img class = "hov4" id="plot-image" src="/assets/Images/wind_speed.png" alt="Windspeed  vs Latitude graph">
-          </a>       
-        </section>  
+          <section id="figure">
+              <a href="">
+                  <img class= "item0" id="plot-image" src="/assets/Images/temperature.png" alt="Temperature vs Latitude graph">
+              </a>
+              <p>The Purpose of this project was to visualize the weather of 800+ cities across the world, of varying distances from the equator, and how the cities weather changes as you get closer to the equator. To build this analysis I used a Python library and OpenWeatherMap API to randomly generate 1,500 geo-coordinates and find nearby cities. City names then were transformed into geo-coordinates, with current, local weather conditions. Next, I utilized Google's Maps JavaScript API, and previously collected cities data to create and overlay a heatmap onto Google Maps. Summer-like weather criteria were then used to programmatically filter, and select a dozen cities for my next adventure. </p>
+              
+          </section>
       </main>
-    </div>
   </div>
 
+  <div class= "content2">
+    <header>
+      <h2>Visualizations</h2>
+    </header>
+    <hr>
+    <main class="box">
+      <section id="figure"> 
+        <a href="/visualizations/max_temp.html">      
+          <img class = "hov1" id="plot-image" src="/assets/Images/temperature.png" alt="Temperature vs Latitude graph">
+        </a>
+        <a href="/visualizations/humidity.html">
+          <img class = "hov2" id="plot-image" src="/assets/Images/humidity.png" alt="Humidity  vs Latitude graph">
+        </a>
+        <a href="/visualizations/cloudiness.html">
+          <img class = "hov3" id="plot-image" src="/assets/Images/cloudiness.png" alt="Cloudiness  vs Latitude graph">
+        </a>
+        <a href="/visualizations/windspeed.html">
+          <img class = "hov4" id="plot-image" src="/assets/Images/wind_speed.png" alt="Windspeed  vs Latitude graph">
+        </a>       
+      </section>  
+    </main>
+  </div>
+
+</div>
+</div>
+</div>
+
 </body>
+
 </html>
