@@ -1,7 +1,7 @@
 /** Default Element Styling **/
 .html { font-size: 22px;} 
 body {
-  padding: 1rem;
+  padding: 4rem;
   min-width: 50%;
   background-image: url(/assets/Images/pexels-miguel.jpg);
   background-position: center center;
@@ -9,27 +9,32 @@ body {
   background-color:#cecece;
   font-family: 'Montserrat', sans-serif;
 }
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 98%;
+}
+.navbar-brand {
+  font-size: 22px
+}
 /*-- End Default Element Styling --*/
 
 /** Start Content1 Styling **/
 /* div class content1 for Landing page content*/
-.card {
-  background-color: rgb(238, 238, 238);
-  color: rgb(48, 48, 48);
-  padding: 1rem;
-  height: 4rem;
-}
-.cards {
+.collection {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 10rem;
   /*  Enable browser to handle column responsiveness automatically */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .content1 {
   background-color: rgb(245, 245, 245);
-  padding: 1rem;
+  padding: 4rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
 }
 .content1 #H1 {
   font-family: 'Bebas Neue', cursive;
@@ -55,59 +60,27 @@ width: 100%;
 /* div class content2 for Visualization page content*/
 .content2 {
   background-color: rgb(245, 245, 245);
-  /* padding: 1rem; */
-  padding: 60px 65px;
+  padding: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.content2 #H1 {
+  font-family: 'Bebas Neue', cursive;
 }
 .content2 #figure {
   justify-content: center;
-  gap: 20px;
 }
 .content2 img {
-  margin: 10px;
-  width: 100%;
-  padding: 5px;
+  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: 4rem
 }
 
 /** Start Styling when hovering over plot image **/
-.hov1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  padding: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-}
-.hov2 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  padding: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-}
-.hov3 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  padding: 5px;
-  border-style: solid;
-  border-color: #ffffff;
-}
-.hov4 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  border-style: solid;
-  padding: 5px;
-  border-color: #ffffff;
-}
-/*-- End Styling when hovering over plot img --*/
-
-.hov1:hover {
+/* .hov1:hover {
   border-color: rgb(97, 97, 97);
 }
 .hov2:hover {
@@ -118,4 +91,6 @@ width: 100%;
 }
 .hov4:hover {
   border-color:rgb(97, 97, 97);
-}
+} */
+/*-- End Styling when hovering over plot img --*/
+
