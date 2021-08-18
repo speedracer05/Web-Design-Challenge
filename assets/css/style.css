@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .navbar {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: fixed;
   top: 0;
   width: 98%;
@@ -61,7 +61,7 @@ width: 100%;
 .content2 {
   background-color: rgb(245, 245, 245);
   padding: 4rem;
-  margin-left: 4rem;
+  margin-left: 1rem;
   margin-right: 4rem;
 }
 .content2 #H1 {
