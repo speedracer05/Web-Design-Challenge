@@ -10,13 +10,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .navbar {
-  /* overflow: hidden; */
   display: flex;
   justify-content: space-between;
   align-items: center
-  /* position: fixed; */
-  /* top: 0;
-  width: 98%; */
+}
+.nav {
+font-size: 16px;
 }
 .navbar-brand {
   font-size: 22px
@@ -96,28 +95,3 @@ width: 100%;
   border-color:rgb(97, 97, 97);
 } */
 /*-- End Styling when hovering over plot img --*/
-
-/** Flexbox for Comparison html page **/
-<style>
-  .comp-wrapper {
-    display: flex;
-    justify-content: space-between; 
-    align-items: flex-start; 
-    /* flex-flow: row wrap; */ 
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    align-content: flex-start;
-
-    background-color: #bbdefb;
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-}
-</style>
-
-.comp-wrapper > div{
-  background: #ffecb3;
-  border: 3px solid #ffcc80;
-  border-radius: 5px;
-  padding: 8px;
-}
