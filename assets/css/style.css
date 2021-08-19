@@ -11,9 +11,12 @@ body {
 }
 .navbar {
   /* overflow: hidden; */
-  position: fixed;
-  top: 0;
-  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  /* position: fixed; */
+  /* top: 0;
+  width: 98%; */
 }
 .navbar-brand {
   font-size: 22px
@@ -33,8 +36,8 @@ body {
 .content1 {
   background-color: rgb(245, 245, 245);
   padding: 4rem;
-  margin-left: 4rem;
-  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
 }
 .content1 #H1 {
   font-family: 'Bebas Neue', cursive;
@@ -62,7 +65,7 @@ width: 100%;
   background-color: rgb(245, 245, 245);
   padding: 4rem;
   margin-left: 1rem;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 .content2 #H1 {
   font-family: 'Bebas Neue', cursive;
@@ -94,36 +97,27 @@ width: 100%;
 } */
 /*-- End Styling when hovering over plot img --*/
 
-/* Jumbotron for  data html */
-.datajumbotron {
-	background-color: #ffffff;
-	padding: 2rem 2rem;
-    height: 100%;
-    margin-top: 80px;
-/* Table header in data html */
-#thtable {
-	background-color: #464646;
-	color: #ffffff;
-}
-/* custom scrollbar visbility in data html */
-/* css from https://mdbootstrap.com/docs/jquery/tables/scroll/ */
-.my-custom-scrollbar {
-	position: relative;
-	height: 500px;
-	overflow: auto;
-}
-.table-wrapper-scroll-y {
-	display: block;
-}
+/** Flexbox for Comparison html page **/
+<style>
+  .comp-wrapper {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    /* flex-flow: row wrap; */ 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: flex-start;
 
-/* Scrollbar edit in data html table
-css from https://mdbootstrap.com/docs/jquery/javascript/scroll/ */
-.scrollbar-primary::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-	background-color: #464646; 
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
 }
-.scrollbar-primary::-webkit-scrollbar {
-	width: 12px;
-	background-color: #fafafa; 
+</style>
+
+.comp-wrapper > div{
+  background: #ffecb3;
+  border: 3px solid #ffcc80;
+  border-radius: 5px;
+  padding: 8px;
 }
