@@ -95,3 +95,7 @@ width: 100%;
   border-color:rgb(97, 97, 97);
 } */
 /*-- End Styling when hovering over plot img --*/
+
+.item {
+  padding: 20px;
+  border: 1px;
