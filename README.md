@@ -12,6 +12,4 @@ The Purpose of this project was to visualize the weather of 800+ cities across t
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
-For this project I created a visualization dashboard website, using visualizations that I had created in a past assignment.
-
-In building this dashboard, I created individual pages for each plot, and a means to navigate between them. The pages contain the visualizations and corresponding explanations. in addition, there is a landing page, a page comparing the plots, and another page to view the data used to build them.
+I used the information created in my analysis of the impact of latitude on weather conditions to present the information in a visualization dashboard website. In building this dashboard, I created individual pages for each plot, and a means to navigate between them. The pages contain the visualizations and corresponding explanations. in addition, there is a landing page, a page comparing the plots, and another page to view the data used to build them. The website will update the scale of the format depending on the size screen the user is viewing it on.
