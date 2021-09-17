@@ -6,8 +6,6 @@ This repository contains a website dashboard that is deployed to GitHub Pages:
 # Table of Contents
 -   [Background](#background)
 -   [Key Features](#key-features)
--   [Development](#development)
--   [The Output](#the-ouput)
 -   [Resources](#resources)
 -   [Contact](#contact)
 
@@ -20,7 +18,11 @@ I used the information created in my analysis of the [How's the Weather, "Impact
 <img src="assets/Images/home_page.png" width="480">
 </p>
 
-
+## Key Features
+- Home page button is featured on each page, and returns you to the summary landing page
+- Plots dropdown menu that contains links to the four weather summaries
+- Comparison link to show 4 weather summaries in a grid formation
+- A data link that takes tyou to the data table used to plot my results
 
 ## Resources
 `HTML`
