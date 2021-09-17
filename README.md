@@ -1,8 +1,10 @@
 # Web Visualization Dashboard (Latitude)
-##3 University California Davis Data Analytics and Visualization Boot Camp 2021
+## University California Davis Data Analytics and Visualization Boot Camp 2021
 This repository contains a website dashboard that is deployed to GitHub Pages 
+<p>
+  [Web Visualization](https://speedracer05.github.io/Web-Design-Challenge/index.html)
+</p>
 
-#### Deployment Link: [Web Visualization](https://speedracer05.github.io/Web-Design-Challenge/index.html)
 ## Background
 The Purpose of this project was to visualize the weather of 800+ cities across the world, of varying distances from the equator, and how the cities weather changes as you get closer to the equator. To build this analysis I used a Python library and OpenWeatherMap API to randomly generate 1,500 geo-coordinates and find nearby cities. City names then were transformed into geo-coordinates, with current, local weather conditions. Next, I utilized Google's Maps JavaScript API, and previously collected cities data to create and overlay a heatmap onto Google Maps. Summer-like weather criteria were then used to programmatically filter, and select a dozen cities for my next adventure.
 
