@@ -1,4 +1,6 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (Latitude)
+##3 University California Davis Data Analytics and Visualization Boot Camp 2021
+This repository contains a website dashboard that is deployed to GitHub Pages 
 
 #### Deployment Link: [Web Visualization](https://speedracer05.github.io/Web-Design-Challenge/index.html)
 ## Background
